@@ -1,0 +1,183 @@
+@charset "utf-8";
+/* CSS Document */
+
+.header{
+			font-family: megavolt;
+			text-align: center;
+			color: white;
+			background-color: black;
+			padding: 10px;
+			height: 100px;
+		}
+		
+		.sellsheader{
+			font-family: good-times;
+			text-align: center;
+			color: white;
+			background-color: black;
+			padding: 10px;
+			height: 35px;
+		}
+		
+		.sellsheader h2{
+			margin-top: 5px;
+		}
+		
+		.sellsmain{
+			font-family: arial;
+			text-align: center;
+			color: white;
+			background-color: aquamarine;
+			padding: 30px;
+			height: 130px;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			align-items: center;
+		
+		}
+		
+		@media screen and (max-width: 300px){
+			header{
+				width: 300px;
+			}
+			
+		}
+		
+		@media screen and (max-width: 300px){
+			sellsheader{
+				width: 300px;
+			}
+			
+		}
+		
+		.block{
+			margin: 0 auto;
+			width: 1000px;
+		}
+		
+		.latestholder{
+			display: flex;		
+			
+			
+		}
+		
+		.latestheader{
+			background-color: black;
+			padding: 10px;
+			height: 30px;
+			width: 50%;
+			color: white;
+			font-family: arial;
+			text-align: center;
+		
+			
+		}
+			
+			
+		.content-holder{
+			display: flex;
+			
+		}
+		
+		.sectionnav{
+			background-color: black;
+			padding: 10px;
+			border-radius: 10px;
+			height: 150px;
+			width: 170px;
+			margin: 35px;
+			margin-top: -20px
+			
+		}
+		
+		.productcontent{
+			
+			background-color: black;
+			padding: 10px;
+			border-radius: 10px;
+			height: 155px;
+			width: 120px;
+			margin: 35px;
+			margin-top: -25px;
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+			
+			
+		}
+		.pd-display{
+			background-color: white;
+			padding: 10px;
+			border-radius: 10px;
+			width: 100px;
+			height: 85px;
+			font-family: arial;
+		}
+		
+		.navbar{
+			font-family: good-times;
+			font-size: 19px;
+			color: white;
+			margin: 10px;
+			margin-top: -7px;
+		
+		}
+		
+		.navbarholder{
+			display:flex;
+			justify-content: center;
+			background-color:black;
+			padding: 5px;
+			height:25px;
+		}
+		.navbar a{
+			margin: 20px;
+		}
+		.navbar a> active{
+			color:white;
+		}
+			
+		.productcontent h3{
+			margin-top: -5px;
+			font-size:15px;
+		}
+
+		.Registration-box{
+				background-color: black;
+			padding: 10px;
+			border-radius: 10px;
+			height: 680px;
+			width: 620px;
+			margin: 35px;
+			margin-top: -5px;	
+			justify-content: center;
+				
+		}
+
+		.LessonPlans{
+			background-color: black;
+			padding: 10px;
+			border-radius: 10px;
+			height: 50px;
+			width: 50px;
+			margin: 10px;
+			text-align:	
+		}	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
