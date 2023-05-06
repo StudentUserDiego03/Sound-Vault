@@ -14,7 +14,7 @@
 			font-family: good-times;
 			text-align: center;
 			color: white;
-			background-color: black;
+			background-color: #0D170E;
 			padding: 10px;
 			height: 35px;
 		}
@@ -27,7 +27,7 @@
 			font-family: arial;
 			text-align: center;
 			color: white;
-			background-color: aquamarine;
+			background-color: #40B449;
 			padding: 30px;
 			height: 130px;
 			display: flex;
@@ -92,7 +92,7 @@
 		}
 		
 		.productcontent{
-			
+			font-family: good-times;
 			background-color: black;
 			padding: 10px;
 			border-radius: 10px;
@@ -106,13 +106,10 @@
 			
 			
 		}
-		.pd-display{
-			background-color: white;
-			padding: 10px;
+		.productcontent img{
 			border-radius: 10px;
-			width: 100px;
-			height: 85px;
-			font-family: arial;
+			width: 130px;
+			height: 110px;
 		}
 		
 		.navbar{
@@ -139,8 +136,8 @@
 		}
 			
 		.productcontent h3{
-			margin-top: -5px;
-			font-size:15px;
+			margin-top: -1px;
+			font-size:13px;
 		}
 
 		.Registration-box{
@@ -170,7 +167,8 @@
 			padding: 10px;
 			width: 350px;
 			height: 250px;
-			margin-top: 30px;
+			margin-top: 20px;
+			border-radius: 10px;
 		}	
 
 		.productcontent a{
@@ -180,7 +178,123 @@
 			
 		}
 
+		.sectionnav a{
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+		}
 
+		.sectionnav img{
+			border-radius: 10px;
+			height: 150px;
+			width: 170px;
+			margin: 0 auto;
+			
+		}
+
+
+		.purchasedisplay{
+			background-color: black;
+			padding: 10px;
+			width: 250px;
+			height: 250px;
+			border-radius: 10px; 
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+			margin: 7px;
+			margin-top: -10px;
+		}
+
+		.purchasedisplay img{
+			width: 250px;
+			height: 250px;
+			border-radius: 10px;
+			margin: 0 auto;
+		}
+	
+		.latestbox{
+			background-color: black;
+			padding: 10px;
+			width: 250px;
+			height: 250px;
+			border-radius: 10px; 
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+			margin: 25px;
+			margin-top: -10px;
+		}
+
+		.latestbox img{
+			width: 250px;
+			height: 250px;
+			border-radius: 10px;
+			margin: 0 auto;
+		}
+
+		.latestbox a{
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+		}		
+		
+		.underblog{
+			background-color: black;	
+			padding: 10px;
+			border-radius: 10px;
+			height: 150px;
+			width: 170px;
+			margin: 35px;
+			margin-top: -20px;
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+	
+		}
+
+		.underblog a{
+			display: flex;	
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+		
+		.underblog img{
+			border-radius: 10px;
+			height: 150px;
+			width: 170px;
+			margin: 0 auto;			
+	
+		}
+
+
+		.blogbox img{
+			width: 350px;
+			height: 250px;
+			border-radius: 10px;
+			margin: 0 auto;
+		}
+		
+		.blog a{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+
+		.footer{
+			font-family: good-times;
+			text-align: center;
+			color: white;
+			background-color: black;
+			padding: 10px;
+			height: 180px;
+		}
+
+		.registration-box label{
+			font-family: good-times;
+	
+		}
 
 
 
